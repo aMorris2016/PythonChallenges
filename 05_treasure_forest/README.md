@@ -54,4 +54,4 @@ else:
   ```
 
 Play the game here:
-https://replit.com/@aileenmorris201/treasure-island?v=1
+https://replit.com/@aileenmorris201/treasure-forest#main.py
