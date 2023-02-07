@@ -6,6 +6,8 @@ Each choice is represented by a word. The word tells the program which path to c
 To map out the story, I drew a flowchart showing the path with the choices made by the player and the corresponding outcomes.
 ![decision_tree](https://github.com/aMorris2016/PythonChallenges/blob/main/05_treasure_forest/flowchart_adventure_game.png)
 
+![tresure_forest](https://user-images.githubusercontent.com/19298335/217159238-c31e915a-d043-46a2-99a7-4f9cbca67bee.gif)
+
 ```
 print('''
 *******************************************************************************
