@@ -3,12 +3,8 @@
 Using conditionals and branching, I created a text-based "choose your own adventure" game. At each scene, the user is prompted to make a choice. 
 Each choice is represented by a word. The word tells the program which path to continue following. 
 
-The flowchart below shows the path with the choices made
-![decision_tree](
-
-
-
-![tresure_forest](https://user-images.githubusercontent.com/19298335/217154227-f9622de8-ddf9-4da3-8c96-756c73ea4334.gif)
+To map out the story, I drew a flowchart showing the path with the choices made by the player and the corresponding outcomes.
+![decision_tree](https://github.com/aMorris2016/PythonChallenges/blob/main/05_treasure_forest/flowchart_adventure_game.png)
 
 ```
 print('''
@@ -54,3 +50,6 @@ if choice1.lower() == "left":
 else:
   print("You fell off the cliff. GAME OVER!!!")
   ```
+
+Play the game here:
+https://replit.com/@aileenmorris201/treasure-island?v=1
