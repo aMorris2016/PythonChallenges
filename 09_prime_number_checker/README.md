@@ -8,6 +8,10 @@ This program checks whether a given number is a prime number or not.
 import math
 
 def prime_checker(number):
+    if number < 2:
+        print("It's not a prime.")
+        return
+
     is_prime = True
     last_divisor = math.ceil(math.sqrt(number))
 
@@ -21,7 +25,7 @@ def prime_checker(number):
         
 n = int(input("Check this number: "))
 
-prime_checker(number=n)
+prime_checker(number=n)     
 ```
 
 Try it out for yourself: https://replit.com/@aileenmorris201/primenumberchecker?v=1
